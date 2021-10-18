@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 import django_heroku
 #STATIC_ROOT = BASE_DIR / 'staticfiles'
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
